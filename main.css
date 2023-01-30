@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+section {
+    padding:  48px 0;
+    margin-left: 48px;
+}
+h1{
+    margin-bottom: 40px;
+}
+button{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;}
+.form-campo{
+    margin-bottom: 16px;
+    }
+.form-campo label{
+    font-weight: bold;
+    display: block;
+    }
+.form-campo input,
+.form-campo textarea{
+    width: 100%;
+    display: block;
+    padding: 8px;
+    }
+form{
+    max-width: 360px;
+    }
+form button{ 
+    max-width: 120px;
+    }    
